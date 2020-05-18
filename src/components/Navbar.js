@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Navitem from './NavItem';
+import Navitem from './Navitem';
 
 class Navbar extends Component {
       constructor(props)
@@ -21,6 +21,7 @@ class Navbar extends Component {
 
       document.getElementById(this.state.NavItemActive).classList.add('active');
       });
+      };
       render() {
         return (
               <nav>
